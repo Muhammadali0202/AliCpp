@@ -1,5 +1,9 @@
-
-//SELF DONE 
+// *   *
+//  * *
+//   *
+//  * *
+// *   *
+//SELF DONE 😭😭
 
 #include <iostream>
 using namespace std;

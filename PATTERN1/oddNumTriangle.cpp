@@ -1,3 +1,9 @@
+// 1
+// 13
+// 135
+// 1357
+// 13579
+
 #include <iostream>
 using namespace std;
 int main(){

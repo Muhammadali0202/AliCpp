@@ -1,3 +1,9 @@
+
+//    1
+//   12
+//  123
+// 1234
+//SELF DONE😭😭
 #include <iostream>
 using namespace std;
 int main(){

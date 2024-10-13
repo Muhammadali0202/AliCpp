@@ -1,3 +1,8 @@
+// 1
+// 01
+// 101
+// 0101
+
 #include <iostream>
 using namespace std;
 int main(){
