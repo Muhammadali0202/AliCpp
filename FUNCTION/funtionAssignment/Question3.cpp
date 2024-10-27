@@ -1,4 +1,4 @@
-//Q write a function that takes the radius of a circle as an argument and returns its area.
+//Q Given two numbers a and b, write a function to print all odd numbers between them.
 #include <iostream>
 using namespace std;
 void oddNum(int a, int b){
@@ -17,6 +17,6 @@ int main(){
     cout << "Enter 2nd number: ";
     cin >> b;
     
-    cout << oddNum(a,b);
+     oddNum(a,b);
     
 }
