@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 void find(int n, int *ptr1 , int *ptr2){
-    *ptr2 = n%10;
+    *ptr2 = n%10; // lastDigit
     while(n>9){
         n/=10;
     }
-    *ptr1 = n;
+    *ptr1 = n; //firstDigit
     return;
 }
 int main(){
