@@ -1,0 +1,57 @@
+// #include <iostream>
+// using namespace std;
+// int grade(int num){
+//     char grade;
+//     if(num <= 100 && num >= 90){
+//         grade == 'A';
+//     }else if(num <= 89 && num >= 80){
+//         grade == 'B';
+//     }else if(num <= 79 && num >= 70){
+//         grade == 'C';
+//     }else if(num <= 69 && num >= 60){
+//         grade == 'D';
+//     }else if(num < 69){
+//         grade == 'F';
+//     }
+//     return grade; 
+// }
+// int main(){
+//     int num;
+//     cout<<"Enter a number: ";
+//     cin>>num;
+//     cout << grade(num);
+// }
+// #include <iostream>
+// using namespace std;
+// float miles(float kiloMeters){
+//     float miles = kiloMeters * 0.621371;
+//     return miles;
+// }
+// int main(){
+//     float kiloMeters;
+//     cout << "Enter the distance in kilometers: ";
+//     cin >> kiloMeters;
+//     cout << miles(kiloMeters);
+
+// }
+// #include <iostream>
+// using namespace std;
+// int Max(int num1, int num2, int num3){
+//     int max = num1;
+//     if(num2 > max){
+//         max = num2;
+//     }else if(num3 > max){
+//         max = num3;
+//     }
+//     return max;
+// }
+// int main(){
+//     int num1, num2, num3;
+//     cout << "Enter the first number: ";
+//     cin >> num1;
+//     cout << "Enter the second number: ";
+//     cin >> num2;
+//     cout << "Enter the third number: ";
+//     cin >> num3;
+//     cout << Max(num1, num2, num3);
+// }

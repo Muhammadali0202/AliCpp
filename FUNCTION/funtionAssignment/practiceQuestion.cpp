@@ -10,13 +10,13 @@ int sum(int num){
         sumOfDigit = sumOfDigit + lastDigit(num);
         num = num/10;
     }
-     return sumOfDigit;
+    return sumOfDigit;
 
 }
 int main(){
     int n;
     cout << "Enter the Number: ";
     cin >> n;
-
     cout << sum(n);
+
 }

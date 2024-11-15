@@ -5,8 +5,8 @@ int main(){
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    for(int i = 2; i<=n-1; i++){
-        if(n%i==0){
+    for(int count = 2; count<=n-1; count++){
+        if(n%count==0){
             cout << n << " is a composite Number";
         }
         break;

@@ -4,17 +4,18 @@ using namespace std;
 // int square(int num){
 //     return num * num;
 // }
-void squareNatural(int n){
+int  squareNatural(int n){
     int sqr;
     for(int i = 1; i<=n; i++){
          sqr = i * i;
-         cout << sqr << endl;
+         
     }
+    return sqr;
 }
 int main(){
     int n;
     cout << "Enter a Number: ";
     cin >> n;
-    squareNatural(n);
+    cout << squareNatural(n);
     
 }
