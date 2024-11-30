@@ -35,7 +35,7 @@ int main(){
     v.push_back(8);
     v.push_back(6);
     for(int i = 0; i<v.size(); i++){
-        cout << v[i] << " ";
+        cout << v[i]<< " ";
     }
     cout << endl;
     //sorting 0's and 1's

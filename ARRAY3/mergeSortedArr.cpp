@@ -55,7 +55,7 @@ int main(){
     arr2.push_back(10);
     arr2.push_back(12);
     for(int i = 0; i<arr2.size(); i++){
-        cout << arr2[i] << " ";
+        cout << arr2[i]<< " ";
     }
     cout << endl;
     vector<int> v = merge(arr1,arr2); 

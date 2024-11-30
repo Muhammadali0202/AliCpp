@@ -19,6 +19,6 @@ int triplitSum(vector<int> &v, int x){
 int main(){
     vector<int> v = {1, 5, 3, 2, 7, 6};
     int x = 10;
-    cout << "Count triplets with sum equal to x: " << triplitSum(v, x) << endl;
+    cout << "Count triplets with sum equal to x : " << triplitSum(v, x) << endl;
     
 }

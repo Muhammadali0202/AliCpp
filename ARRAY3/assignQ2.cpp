@@ -21,5 +21,5 @@ int firstNonRepeating(vector<int> &v){
 int main(){
     vector<int> v = {1, 2, 3, 4, 5, 1, 2, 3, 4};
     int result = firstNonRepeating(v);
-    cout << "First non-repeating element is: " << result << endl;
+    cout << "First non-repeating element is : " << result << endl;
 }
