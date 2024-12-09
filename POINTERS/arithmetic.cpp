@@ -20,10 +20,15 @@ int main(){
     // ptr = ptr + 1;
     // cout << *ptr << endl;   //6422284
 
-    int x = 4;
-    int *ptr = &x;
-    cout << *ptr << endl;   //4
-    // *ptr = *ptr + 1;
-    (*ptr)++;
-    cout << *ptr << endl;   //5
+    // int x = 4;
+    // int *ptr = &x;
+    // cout << *ptr << endl;   //4
+    // // *ptr = *ptr + 1;
+    // (*ptr)++;
+    // cout << *ptr << endl;   //5
+    char ch = 'A';
+    char *ptr = &ch;
+    cout << (void*)ptr << endl;    
+    cout << *ptr << endl;   //A
+    
 }
