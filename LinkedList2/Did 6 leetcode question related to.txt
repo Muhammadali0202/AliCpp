@@ -1,0 +1,1 @@
+Did 6 leetcode question related to linkedList
