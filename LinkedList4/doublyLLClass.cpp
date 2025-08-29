@@ -103,13 +103,24 @@ class DLL{ //user defined data structure
 		else if(idx == 0) deleteAtStart();
 		else if(idx == size) deleteAtEnd();
 		else{
-			Node *temp = head;
-			for(int i = 1; i<=idx-1; i++){
-				temp = temp->next;
-			}
-			temp->next = temp->next->next;
-            temp->next->prev = temp; //extra
-			size--;
+            // if(idx < size/2){
+                Node *temp = head;
+			    for(int i = 1; i<=idx-1; i++){
+				    temp = temp->next;
+			    }
+			    temp->next = temp->next->next;
+                temp->next->prev = temp; //extra
+			    size--;
+            // }else{
+            //     Node *temp = head;
+			//     for(int i = 1; i<size-idx; i++){
+			// 	    temp = temp->prev;
+			//     }
+			//     temp->prev = temp->prev->prev;
+            //     temp->prev->next = temp; //extra
+			//     size--;
+            // }
+			
 		}
 	}
 
@@ -151,19 +162,19 @@ int main(){
     list.insertAtEnd(10);
     list.insertAtEnd(20);
     list.insertAtEnd(30);
-    list.display();
+    // list.display();
     list.insertAtEnd(40);
-    list.display();
+    // list.display();
     list.insertAtStart(50); 
-    list.display();
+    // list.display();
     list.insertAtIdx(2,60);
-    list.display();
+    // list.display();
     list.deleteAtEnd();
-    list.display();
+    // list.display();
     list.deleteAtStart();
-    list.display();
+    // list.display();
     list.insertAtEnd(90);
     list.display();
-    list.deleteAtIdx(3);
+    list.deleteAtIdx(2);
     list.display();
 }
