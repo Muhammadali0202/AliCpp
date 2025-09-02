@@ -17,6 +17,16 @@ void display(stack <int> &st){
     cout << x << endl;
     st.push(x);
 }
+void pushAtBottom(stack <int> &st, int val){
+    if(st.size() == 0){
+        st.push(val);
+        return;
+    }
+    int x = st.top();
+    st.pop();
+    pushAtBottom(st,val);
+    st.push(x);
+}
 int main(){
     stack <int> st;
     st.push(10);
@@ -25,6 +35,7 @@ int main(){
     st.push(40);
     st.push(50);
     display(st);
-    // cout << endl;
-    // display(st);    
+    pushAtBottom(st,-10);
+    cout << endl;
+    display(st);    
 }
