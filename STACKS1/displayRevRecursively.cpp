@@ -27,6 +27,13 @@ void pushAtBottom(stack <int> &st, int val){
     pushAtBottom(st,val);
     st.push(x);
 }
+void reverse(stack <int> &st){
+    if(st.size() == 1 ) return;
+    int x = st.top();
+    st.pop();
+    reverse(st);
+    pushAtBottom(st, x);
+}
 int main(){
     stack <int> st;
     st.push(10);
@@ -35,7 +42,8 @@ int main(){
     st.push(40);
     st.push(50);
     display(st);
-    pushAtBottom(st,-10);
+    // pushAtBottom(st,-10);
     cout << endl;
+    reverse(st);
     display(st);    
 }
